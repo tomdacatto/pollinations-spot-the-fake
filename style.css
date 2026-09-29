@@ -82,3 +82,6 @@ a { color: var(--accent); }
 .error { background: #3a1a22; border: 1px solid var(--ai); color: #ffd9e0; padding: 10px 14px; border-radius: 12px; margin-bottom: 12px; }
 @media (max-width: 560px) { .pair.text { grid-template-columns: 1fr; } .choice.text { min-height: 0; } }
 @media (prefers-reduced-motion: reduce) { .timer i, .choice { transition: none; } }
+
+.powered { max-width: 860px; margin: 0 auto; padding: 0 16px 28px; color: var(--muted); font-size: .8rem; text-align: center; }
+.powered a { color: inherit; }
