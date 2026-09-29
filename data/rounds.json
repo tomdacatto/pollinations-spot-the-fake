@@ -1,0 +1,437 @@
+{
+  "built": "2026-09-29",
+  "rounds": [
+    {
+      "id": "p01",
+      "kind": "image",
+      "tier": "easy",
+      "real": {
+        "src": "data/img/p01-real.jpg",
+        "credit": {
+          "title": "Krabbenspinne Misumena vatia Rose-20190803-RM-085027",
+          "author": "Ermell",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=87799479"
+        }
+      },
+      "fake": {
+        "src": "data/img/p01-fake.jpg",
+        "model": "black-forest-labs/flux.1-schnell"
+      },
+      "tell": "Image 2 features a spider with incorrect anatomy, possessing only four visible legs instead of the eight legs shown in the real photograph."
+    },
+    {
+      "id": "p02",
+      "kind": "image",
+      "tier": "hard",
+      "real": {
+        "src": "data/img/p02-real.jpg",
+        "credit": {
+          "title": "Clynotis severus, AF 2",
+          "author": "JJ Harrison",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=7752067"
+        }
+      },
+      "fake": {
+        "src": "data/img/p02-fake.jpg",
+        "model": "tongyi-mai/z-image-turbo"
+      },
+      "tell": "Image 2 features a spider with cartoonishly round, perfectly spherical primary eyes, whereas Image 1 shows natural, multifaceted compound-lens structures."
+    },
+    {
+      "id": "p03",
+      "kind": "image",
+      "tier": "easy",
+      "real": {
+        "src": "data/img/p03-real.jpg",
+        "credit": {
+          "title": "Green Frog Rana clamitans Facing Left 3008px",
+          "author": "Derek Ramsey (Ram-Man)",
+          "license": "GFDL 1.2",
+          "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=2235828"
+        }
+      },
+      "fake": {
+        "src": "data/img/p03-fake.jpg",
+        "model": "black-forest-labs/flux.1-schnell"
+      },
+      "tell": "The frog in image 2 features unnatural, perfectly symmetrical dark spots spaced evenly across its back."
+    },
+    {
+      "id": "p04",
+      "kind": "image",
+      "tier": "hard",
+      "real": {
+        "src": "data/img/p04-real.jpg",
+        "credit": {
+          "title": "Grasfrosch new version",
+          "author": "Christoph Leeb",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=2518169"
+        }
+      },
+      "fake": {
+        "src": "data/img/p04-fake.jpg",
+        "model": "tongyi-mai/z-image-turbo"
+      },
+      "tell": "The frog in image 2 features an extra, malformed front limb protruding unnaturally from under its chest area."
+    },
+    {
+      "id": "p05",
+      "kind": "image",
+      "tier": "easy",
+      "real": {
+        "src": "data/img/p05-real.jpg",
+        "credit": {
+          "title": "Banco de peces trompeta (Macroramphosus scolopax), islas Azores, Portugal, 2020-07-27, DD 38",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=108259699"
+        }
+      },
+      "fake": {
+        "src": "data/img/p05-fake.jpg",
+        "model": "black-forest-labs/flux.1-schnell"
+      },
+      "tell": "Image 2 features unnaturally sparse, isolated fish scattered across the water column, unlike the dense, cohesive school tightly packed together in image 1."
+    },
+    {
+      "id": "p06",
+      "kind": "image",
+      "tier": "hard",
+      "real": {
+        "src": "data/img/p06-real.jpg",
+        "credit": {
+          "title": "Arrow blenny (Lucayablennius zingaro) by q phia - Cuba 2017",
+          "author": "q phia",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=82784950"
+        }
+      },
+      "fake": {
+        "src": "data/img/p06-fake.jpg",
+        "model": "tongyi-mai/z-image-turbo"
+      },
+      "tell": "Image 2 features an extra fish body with visible fins protruding entirely from the burrow instead of just the head emerging."
+    },
+    {
+      "id": "p07",
+      "kind": "image",
+      "tier": "easy",
+      "real": {
+        "src": "data/img/p07-real.jpg",
+        "credit": {
+          "title": "Panoramic view of Wat Pa Phon Phao and Nam Khan river seen from Old French Bridge Luang Prabang Laos",
+          "author": "Basile Morin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=141262805"
+        }
+      },
+      "fake": {
+        "src": "data/img/p07-fake.jpg",
+        "model": "black-forest-labs/flux.1-schnell"
+      },
+      "tell": "Image 2 shows a wider, muddy river lacking the grassy foreground banks and distinct vegetation textures seen in the lower left of image 1."
+    },
+    {
+      "id": "p08",
+      "kind": "image",
+      "tier": "hard",
+      "real": {
+        "src": "data/img/p08-real.jpg",
+        "credit": {
+          "title": "Buddhist monks walking in front of the temple Haw Pha Bang in Luang Prabang",
+          "author": "Basile Morin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=73463874"
+        }
+      },
+      "fake": {
+        "src": "data/img/p08-fake.jpg",
+        "model": "tongyi-mai/z-image-turbo"
+      },
+      "tell": "Image 2 shows monks marching in a single straight line, yet their feet hover awkwardly just above the red brick ground without casting any shadows."
+    },
+    {
+      "id": "p09",
+      "kind": "image",
+      "tier": "easy",
+      "real": {
+        "src": "data/img/p09-real.jpg",
+        "credit": {
+          "title": "Catedral, Segovia, España, 2024-06-14, DD 66-68 HDR",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=152061166"
+        }
+      },
+      "fake": {
+        "src": "data/img/p09-fake.jpg",
+        "model": "black-forest-labs/flux.1-schnell"
+      },
+      "tell": "The checkered floor pattern in Image 2 dissolves into messy, irregular brown shapes instead of maintaining a clear grid near the back."
+    },
+    {
+      "id": "p10",
+      "kind": "image",
+      "tier": "hard",
+      "real": {
+        "src": "data/img/p10-real.jpg",
+        "credit": {
+          "title": "New norcia gnangarra 1 v2",
+          "author": "Gnangarra",
+          "license": "CC BY 2.5 au",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5/au/deed.en",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=10631992"
+        }
+      },
+      "fake": {
+        "src": "data/img/p10-fake.jpg",
+        "model": "tongyi-mai/z-image-turbo"
+      },
+      "tell": "Image 2 features an incorrect red conical roof on the bell tower instead of the domed cupola seen in Image 1."
+    },
+    {
+      "id": "p11",
+      "kind": "image",
+      "tier": "easy",
+      "real": {
+        "src": "data/img/p11-real.jpg",
+        "credit": {
+          "title": "Bodie September 2016 019",
+          "author": "King of Hearts",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=51491411"
+        }
+      },
+      "fake": {
+        "src": "data/img/p11-fake.jpg",
+        "model": "black-forest-labs/flux.1-schnell"
+      },
+      "tell": "In image 2, the bright sun positioned directly above the peak of the roof casts heavy shadows forward, which contradicts the illumination on the scene."
+    },
+    {
+      "id": "p12",
+      "kind": "image",
+      "tier": "hard",
+      "real": {
+        "src": "data/img/p12-real.jpg",
+        "credit": {
+          "title": "Bodie September 2016 016",
+          "author": "King of Hearts",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=51491404"
+        }
+      },
+      "fake": {
+        "src": "data/img/p12-fake.jpg",
+        "model": "tongyi-mai/z-image-turbo"
+      },
+      "tell": "Image 2 features asymmetrical window panes on the top floor, where the muntins on the second window from the left do not align."
+    },
+    {
+      "id": "p13",
+      "kind": "image",
+      "tier": "easy",
+      "real": {
+        "src": "data/img/p13-real.jpg",
+        "credit": {
+          "title": "Ansberg Blickrichtung Süden 120324",
+          "author": "Ermell",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=78830783"
+        }
+      },
+      "fake": {
+        "src": "data/img/p13-fake.jpg",
+        "model": "black-forest-labs/flux.1-schnell"
+      },
+      "tell": "Image 2 shows black, unnaturally thick branch structures visible through the bright orange foliage on the right side of the frame."
+    },
+    {
+      "id": "p14",
+      "kind": "image",
+      "tier": "hard",
+      "real": {
+        "src": "data/img/p14-real.jpg",
+        "credit": {
+          "title": "Altenburg-P1180876",
+          "author": "Ermell",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=42940273"
+        }
+      },
+      "fake": {
+        "src": "data/img/p14-fake.jpg",
+        "model": "tongyi-mai/z-image-turbo"
+      },
+      "tell": "Image 2 features a red pyramidal roof on the central tower, whereas the real castle in image 1 has a cylindrical, flat-topped observation tower."
+    },
+    {
+      "id": "t01",
+      "kind": "text",
+      "tier": "easy",
+      "real": {
+        "text": "An octopus is a soft-bodied, eight-limbed mollusc of the order Octopoda.",
+        "credit": {
+          "title": "Octopus (Wikipedia)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "url": "https://en.wikipedia.org/wiki/Octopus"
+        }
+      },
+      "fake": {
+        "text": "Octopuses are intelligent sea creatures with eight arms and ink.",
+        "model": "openai/gpt-5.4-nano"
+      },
+      "tell": "The AI adds “intelligent” and “ink,” while the human sentence is a neutral taxonomic description (“soft-bodied… mollusc… order Octopoda”)."
+    },
+    {
+      "id": "t02",
+      "kind": "text",
+      "tier": "hard",
+      "real": {
+        "text": "The Eiffel Tower is a lattice tower on the Champ de Mars in Paris, France.",
+        "credit": {
+          "title": "Eiffel Tower (Wikipedia)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+        }
+      },
+      "fake": {
+        "text": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France.",
+        "model": "openai/gpt-5.4-nano"
+      },
+      "tell": "The AI omits “on the Champ de Mars” and replaces it with the vague location “in Paris, France,” making its wording less specific than the human sentence."
+    },
+    {
+      "id": "t03",
+      "kind": "text",
+      "tier": "easy",
+      "real": {
+        "text": "A honey bee is a eusocial flying insect from the genus Apis of the largest bee family, Apidae.",
+        "credit": {
+          "title": "Honey bee (Wikipedia)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "url": "https://en.wikipedia.org/wiki/Honey_bee"
+        }
+      },
+      "fake": {
+        "text": "Honey bees pollinate flowers, turning nectar into honey while working together in hives.",
+        "model": "openai/gpt-5.4-nano"
+      },
+      "tell": "The AI sentence adds specific behaviors (“pollinate flowers,” “turning nectar into honey,” “working together in hives”) absent from the Wikipedia-style taxonomic wording."
+    },
+    {
+      "id": "t04",
+      "kind": "text",
+      "tier": "hard",
+      "real": {
+        "text": "A volcano is a vent or fissure in the crust of a planetary-mass object that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.",
+        "credit": {
+          "title": "Volcano (Wikipedia)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "url": "https://en.wikipedia.org/wiki/Volcano"
+        }
+      },
+      "fake": {
+        "text": "A volcano is a rupture in the Earth's crust through which molten rock, ash, and gases erupt from beneath the surface.",
+        "model": "openai/gpt-5.4-nano"
+      },
+      "tell": "It says “a rupture in the Earth's crust,” which is narrower and less precise than “a vent or fissure in the crust of a planetary-mass object,” from Wikipedia."
+    },
+    {
+      "id": "t05",
+      "kind": "text",
+      "tier": "easy",
+      "real": {
+        "text": "Coffee is a beverage brewed from roasted, ground coffee beans.",
+        "credit": {
+          "title": "Coffee (Wikipedia)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "url": "https://en.wikipedia.org/wiki/Coffee"
+        }
+      },
+      "fake": {
+        "text": "Coffee warms the soul, sparking bright thoughts at dawn.",
+        "model": "openai/gpt-5.4-nano"
+      },
+      "tell": "It’s poetic and vague (“warms the soul,” “sparking bright thoughts at dawn”) with emotional imagery, not the factual, technical process description (“brewed from roasted, ground coffee beans”)."
+    },
+    {
+      "id": "t06",
+      "kind": "text",
+      "tier": "hard",
+      "real": {
+        "text": "A rainbow is an optical phenomenon caused by refraction, internal reflection and dispersion of light in water droplets resulting in a continuous spectrum of light appearing in the sky.",
+        "credit": {
+          "title": "Rainbow (Wikipedia)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "url": "https://en.wikipedia.org/wiki/Rainbow"
+        }
+      },
+      "fake": {
+        "text": "Rainbow is a meteorological phenomenon that appears as a spectrum of light in the sky when sunlight is refracted, dispersed, and internally reflected by water droplets.",
+        "model": "openai/gpt-5.4-nano"
+      },
+      "tell": "“Meteorological phenomenon” is not in the human sentence, and the wording “spectrum of light in the sky” is phrased more generally rather than mirroring the detailed “caused by … in water droplets.”"
+    },
+    {
+      "id": "t07",
+      "kind": "text",
+      "tier": "easy",
+      "real": {
+        "text": "The Moon is the only natural satellite of Earth.",
+        "credit": {
+          "title": "Moon (Wikipedia)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "url": "https://en.wikipedia.org/wiki/Moon"
+        }
+      },
+      "fake": {
+        "text": "Moonlight spills on silent streets like silver.",
+        "model": "openai/gpt-5.4-nano"
+      },
+      "tell": "AI uses poetic, personifying imagery (“Moonlight spills,” “silent streets,” “like silver”) rather than a factual, unembellished astronomical statement."
+    },
+    {
+      "id": "t08",
+      "kind": "text",
+      "tier": "hard",
+      "real": {
+        "text": "A bicycle, also called a pedal cycle, bike, push-bike or cycle, is a human-powered or motor-assisted, pedal-driven, single-track vehicle, with two wheels attached to a frame, one behind the other.",
+        "credit": {
+          "title": "Bicycle (Wikipedia)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "url": "https://en.wikipedia.org/wiki/Bicycle"
+        }
+      },
+      "fake": {
+        "text": "A bicycle is a human-powered vehicle with two wheels in a frame, propelled by pedaling that turns the chain and drives the rear wheel.",
+        "model": "openai/gpt-5.4-nano"
+      },
+      "tell": "The AI adds technical phrasing (“pedaling that turns the chain and drives the rear wheel”), while the human definition uses broader, non-mechanistic wording without chain/rear-wheel specifics."
+    }
+  ]
+}
